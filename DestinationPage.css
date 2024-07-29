@@ -1,0 +1,353 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: #25424C;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #25424C;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.logo-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 16px;
+    font: 400 30px Bayon, sans-serif;
+    color: #25424c;
+}
+
+.user-menu {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 25px;
+    align-items: stretch;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.search-box-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-left: 120px;
+    background: #25424c;
+    border-radius: 10px;
+}
+
+.search-box-container input {
+    width: 200px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-left: -110px;
+    background-color: #25424C;
+    color: white;
+    font: "Barlow Condensed", sans-serif;
+}
+
+.search-box-container input::placeholder {
+    font-style: italic;
+    color: #cdcfd0;
+}
+
+.icon {
+    box-sizing: border-box;
+    display: block;
+    width: 40px;
+    max-width: initial;
+    height: 40px;
+    border: none;
+    object-fit: contain;
+}
+
+.main-destination {
+    display: inline-block;
+    width: 1440px;
+    background: white;
+}
+
+.main-destination-widget {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 1440px;
+}
+
+.main-destination-layout {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 1230px;
+    padding-top: 18px;
+    padding-bottom: 27px;
+}
+
+.main-destination-title {
+    flex: 0 0 auto;
+    align-self: center;
+    padding-left: 350px;
+    margin: 0;
+    font: 400 40px "Bayon", sans-serif;
+    color: #25424c;
+}
+
+.destination-card-main-layout {
+    flex: 0 0 auto;
+    margin-top: 10px;
+}
+
+.destination-card-section1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 78px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.destination-card-section1:first-child {
+    margin-top: 0px;
+}
+
+.section-x {
+    margin-top: 40px;
+}
+
+.destination1-layout {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 249px;
+    padding-bottom: 15px;
+    background: white;
+    border: 1px solid #cdcfd0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #cdcfd0;
+}
+
+.destination-image {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: initial;
+    height: 124px;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.destination-card {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.destination-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 13px;
+}
+
+.destination-travel {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    height: 26px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #e56e38;
+    width: fit-content;
+    height: fit-content;
+}
+
+.travel-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 18px Bayon, sans-serif;
+    color: white;
+    white-space: pre-wrap;
+}
+
+.rating-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rating-icon {
+    box-sizing: border-box;
+    display: block;
+    width: 20px;
+    max-width: initial;
+    height: 20px;
+    border: none;
+    object-fit: contain;
+}
+
+.rating-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 15px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    white-space: pre-wrap;
+}
+
+.destination-title-container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.destination-title {
+    box-sizing: border-box;
+    max-width: 226px;
+    padding: 0;
+    margin: 0;
+    font: 600 20px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.destination-description {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+.destination-row-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: -30px;
+}
+
+.description-icon {
+    box-sizing: border-box;
+    display: block;
+    width: 20px;
+    max-width: initial;
+    height: 20px;
+    border: none;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.description-text {
+    flex: 0 0 auto;
+    padding: 0;
+    font: 400 16px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    white-space: pre-wrap;
+}
+
+.destination-footer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin-top: 30px;
+}
+
+.trip-type-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 40%;
+    padding-right: 29px;
+}
+
+.trip-type {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 24px;
+    background: #cbe3df;
+    border-radius: 5px;
+}
+
+.trip-type-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 14px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    white-space: pre-wrap;
+}
+
+.price-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.price-text {
+    padding: 0;
+    margin: 0;
+    font: 600 20px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,556 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Bayon", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: #25424C;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #25424C;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.logo-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 16px;
+    font: 400 30px Bayon, sans-serif;
+    color: #25424c;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFF0C2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.user-menu a {
+    color: #FFF0C2;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.banner {
+    display: inline-block;
+    width: 100%;
+    background: white;
+}
+
+.banner-content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    min-width: 1440px;
+    padding: 192px 45px 88px;
+    background: url("../Material/HomePage/Banner.png") 50% / cover no-repeat;
+    border: none;
+}
+
+.search-box {
+    display: inline-block;
+    width: 500px;
+    margin-left: 1200px;
+}
+
+.search-box-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.search-box-container input {
+    width : 400px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box-container input::placeholder {
+    font-style: italic;
+    color: #cdcfd0;
+}
+
+.search-box-container button {
+    background-color: #25424C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+}
+
+.content-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 1440px;
+    padding: 24px 29px 46px;
+}
+
+.discover {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.discover-title {
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: 400 40px "Bayon", sans-serif;
+    color: #25424c;
+}
+
+.carousel {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 83px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.carousel-prev {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+    background-color: #25424C;
+    width: 30px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 170px;
+}
+
+.carousel-next {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+    background-color: #25424C;
+    width: 30px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 170px;
+    margin-left: -30px;
+}
+
+.carousel-item1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 250px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    max-width: initial;
+    width: 400px;
+    height: 400px;
+    padding: 249px 13px 11px;
+    margin-left: -35px;
+    background: url("../Material/HomePage/RajaAmpatIsland.png") 50% / cover no-repeat;
+    border: none;
+    border-radius: 10px;
+}
+
+.title-item1 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+}
+
+.carousel-item2 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 250px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    max-width: initial;
+    height: 400px;
+    padding: 249px 93px 11px 14.5px;
+    background: url("../Material/HomePage/MoyoIsland.png") 50% / cover no-repeat;
+    border: none;
+    border-radius: 10px;
+}
+
+.title-item2 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+}
+
+.carousel-item3 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 250px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    max-width: initial;
+    height: 400px;
+    padding: 249px 16px 11px;
+    background: url("../Material/HomePage/WaeReboVillage.png") 50% / cover no-repeat;
+    border: none;
+    border-radius: 10px;
+}
+
+.title-item3 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+}
+
+.carousel-item4 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 250px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    max-width: initial;
+    height: 400px;
+    padding: 249px 80px 11px 17.5px;
+    background: url("../Material/HomePage/SikunirHills.png") 50% / cover no-repeat;
+    border: none;
+    border-radius: 10px;
+}
+
+.title-item4 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+}
+
+.carousel-item5 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 250px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    max-width: initial;
+    height: 400px;
+    padding: 249px 71px 11px 19px;
+    background: url("../Material/HomePage/IjenMountain.png") 50% / cover no-repeat;
+    border: none;
+    border-radius: 10px;
+}
+
+.title-item5 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+}
+
+.pick-destination {
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pick-destination-widget {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.pick-destination-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pick-destination-title {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 40px "Bayon", sans-serif;
+    color: #25424c;
+    margin-left: 30px;
+}
+
+.pick-destination-viewmore {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 20px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: #E56E38;
+}
+
+a:hover {
+    color: #E56E38;
+}
+
+a:visited {
+    color: #25424C;
+}
+
+.line-separator {
+    box-sizing: border-box;
+    width: 97%;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    border-top: 2px solid #cdcfd0;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: calc(25% - 50px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 0;
+}
+
+.destination-card img {
+    box-sizing: border-box;
+    display: block;
+    width: 390px;
+    height: 390px;
+    border: none;
+    object-fit: cover;
+    transform: rotate(270deg);
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    box-sizing: border-box;
+    display: block;
+    width: 390px;
+    height: 390px;
+    border: none;
+    object-fit: cover;
+    transform: rotate(90deg);
+    margin: 0;
+    padding: 0;
+}
+
+.destination-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    height: 26px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #e56e38;
+    width: fit-content;
+    height: fit-content;
+}
+
+.destination-container h3 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 22px "Bayon", sans-serif;
+    color: white; 
+}
+
+.destination-title {
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 30px;
+    font: 600 "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    color: #25424C;
+    margin-bottom: 25px;
+    padding-right: 20px;
+}
+
+.destination-description {
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 23px;
+    line-height: 0.8;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.icon-text img {
+    width: 30px; /* Sesuaikan ukuran ikon */
+    height: 30px; /* Sesuaikan ukuran ikon */
+    margin-right: 5px;
+    transform: rotate(360deg);
+}
+
+
+.trip-type-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+.trip-card-container-a {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding-right: 7px;
+    padding-left: 7px;
+    background: #cbe3df;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.trip-card-container-b {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding-right: 7px;
+    padding-left: 7px;
+    background: #EAD2AC;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.trip-type {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 23px "Barlow Condensed", sans-serif;
+    color: #25424c;
+}
+
+.trip-price {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 600 26px "Barlow Condensed", sans-serif;
+    color: #25424c;
+}
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 1440px;
+    background: #25424c;
+}
+
+.web-rights {
+    padding: 0;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+    text-align: center;
+}

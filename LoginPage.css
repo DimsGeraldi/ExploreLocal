@@ -1,0 +1,284 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftsideparent-container {
+    display: inline-block;
+    width: 50%;
+}
+
+.leftsidechild-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+    padding-top: 343px;
+    padding-bottom: 343px;
+    background: #25424c;
+}
+
+.image-container {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 630px;
+    max-width: initial;
+    height: 634px;
+    border: none;
+    object-fit: cover;
+}
+
+.rightsideparent-container {
+    display: inline-block;
+    width: 50%;
+    background: white;
+}
+
+.rightsidechild-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 672px;
+    padding-top: 100px;
+}
+
+.login-form {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 109px;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.login-header-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-start;
+    margin-left: -53px;
+}
+
+.logo-container {
+    box-sizing: border-box;
+    display: block;
+    width: 122px;
+    max-width: initial;
+    height: 132px;
+    border: none;
+    object-fit: cover;
+}
+
+.logo-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    font: 400 40px "Bayon", sans-serif;
+    color: #25424c;
+}
+
+.login-content-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.username-layout-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.username-content-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.username-icon {
+    box-sizing: border-box;
+    display: block;
+    width: 76px;
+    max-width: initial;
+    height: 75px;
+    border: none;
+    object-fit: contain;
+}
+
+.username-content-container input {
+    width : 400px;
+    border: none;
+    padding: 10px;
+    font: 500 40px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    outline: none;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.username-content-container input::placeholder {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 17px;
+    font: 500 40px "Barlow Condensed", sans-serif;
+    color: #cdcfd0;
+    border: none;
+}
+
+.line-separator1 {
+    flex: 0 0 auto;
+    margin-top: 9.5px;
+    border-top: 3px solid #cdcfd0;
+}
+
+.password-section-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-top: 61px;
+}
+
+.password-layout-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 21px;
+}
+
+.password-content-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.password-icon {
+    box-sizing: border-box;
+    display: block;
+    width: 76px;
+    max-width: initial;
+    height: 76px;
+    border: none;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.password-content-container input {
+    width : 400px;
+    border: none;
+    font: 500 40px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    outline: none;
+    margin-left: 20px;
+    flex: 0 0 auto;
+    padding-top: 30px;
+}
+
+.password-content-container input::placeholder {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 17px;
+    font: 500 40px "Barlow Condensed", sans-serif;
+    color: #cdcfd0;
+    border: none;
+}
+
+.show-password-icon {
+    box-sizing: border-box;
+    display: block;
+    width: 57px;
+    max-width: initial;
+    height: 56px;
+    border: none;
+    object-fit: contain;
+    margin-top: 25px;
+}
+
+.line-separator2 {
+    flex: 0 0 auto;
+    margin-top: 17.5px;
+    border-top: 3px solid #cdcfd0;
+}
+
+.login-button {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 524px;
+    min-width: 524px;
+    height: 85px;
+    margin-top: -10.5px;
+    margin-left: 6px;
+    font: 500 45px "Barlow Condensed", sans-serif;
+    color: white;
+    cursor: pointer;
+    background: #25424c;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px black;
+}
+
+.register-account {
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 365px;
+    font: 500 40px "Barlow Condensed", sans-serif;
+    color: #25424c;
+ }
+ 
+.text-style {
+    font: 400 40px "Barlow Condensed", sans-serif;
+ }
+ 
+.bold-text {
+    font: 600 40px "Barlow Condensed", sans-serif;
+}
+
+.a:visited {
+    color: #25424c;
+}
+
+.a:hover {
+    color: #E56E38;
+}
+
+.a:active {
+    color:#25424c;
+}
