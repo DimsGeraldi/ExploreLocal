@@ -1,0 +1,102 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: #25424C;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #25424C;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.logo-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 16px;
+    font: 400 30px Bayon, sans-serif;
+    color: #25424c;
+}
+
+.user-menu a {
+    color: #FFF0C2;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.settings-icon {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu ul li {
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown-menu ul li a {
+    text-decoration: none;
+    color: #25424c;
+    display: block;
+}
+
+.settings-icon:hover + .dropdown-menu, .dropdown-menu:hover {
+    display: block;
+}
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 1440px;
+    background: #25424c;
+}
+
+.web-rights {
+    padding: 0;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    margin: 0;
+    font: 400 24px/35px "Bayon", sans-serif;
+    color: white;
+    text-align: center;
+}
