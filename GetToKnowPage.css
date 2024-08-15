@@ -1,0 +1,321 @@
+.content1-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 1440px;
+    padding-top: 95px;
+}
+
+.about-us-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-right: 96px;
+    padding-left: 96px;
+}
+
+.logo-about-us-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 484px;
+    padding-bottom: 5.5px;
+}
+
+.image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 439px;
+    max-width: initial;
+    height: 435px;
+    border: none;
+    object-fit: cover;
+}
+
+.description-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 1110px;
+    padding-right: 15px;
+    padding-left: 50px;
+}
+
+.description-title-container {
+    padding: 0;
+    margin-top: 33px;
+    font: 400 40px Bayon, sans-serif;
+    color: #25424c;
+}
+
+.description-content-container {
+    box-sizing: border-box;
+    width: 103%;
+    padding: 0;
+    margin: 0;
+    margin-top: 43px;
+    font: 600 28px/50px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    text-align: justify;
+}
+
+.content2-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 63px;
+    margin-top: 84px;
+}
+
+.contact-container {
+    flex: 0 0 auto;
+    padding-top: 26px;
+    padding-left: 50px;
+}
+
+.contact-container-title {
+    padding: 0;
+    margin: 0;
+    font: 400 40px "Bayon", sans-serif;
+    color: #25424c;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.contact-detail-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-material {
+    box-sizing: border-box;
+    display: block;
+    width: 60px;
+    max-width: initial;
+    height: 60px;
+    border: none;
+    object-fit: contain;
+}
+
+.email-contact-container {
+    display: block;
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 22px;
+    font: 600 30px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    text-decoration-line: none;
+    white-space: pre-wrap;
+}
+
+.phone-contact-container {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 22px;
+    font: 600 30px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    white-space: pre-wrap;
+}
+
+.linkedin-contact-container {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 22px;
+    font: 600 30px "Barlow Condensed", sans-serif;
+    color: #25424c;
+    white-space: pre-wrap;
+}
+
+.message-form-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    min-width: 1000px;
+    padding: 26px 34px;
+    background: #cbe3df;
+    border: 5px solid #25424c;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.message-form-container-title {
+    padding: 0;
+    margin: 0;
+    font: 400 40px "Bayon", sans-serif;
+    color: #25424c;
+}
+
+.message-form-content-container {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 7px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.name-description-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.name-container-title {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 600 30px "Barlow Condensed", sans-serif;
+    color: #25424c;
+}
+
+.name-container-symbol {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 61px;
+    font: 600 30px "Barlow Condensed", sans-serif;
+    color: #25424c;
+}
+
+.name-bubble-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 750px;
+    height: 52px;
+    margin-left: 16px;
+    background: white;
+    border: 1px solid #25424c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-right: 18px;
+    margin-top: 34px;
+}
+
+.message-container2 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.message-description-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.message-container-title {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 600 30px "Barlow Condensed", sans-serif;
+    color: #25424c;
+}
+
+.message-container-symbol {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    font: 600 30px "Barlow Condensed", sans-serif;
+    color: #25424c;
+}
+
+.message-bubble-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 750px;
+    height: 353px;
+    margin-left: 16px;
+    background: white;
+    border: 1px solid #25424c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.name-bubble-container input {
+    width : 718px;
+    height: 18px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    outline: none;
+    display: block;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.message-bubble-container textarea {
+    width: 737px;
+    height: 340px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+
+    resize: none;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.name-bubble-container input::placeholder, .message-bubble-container textarea::placeholder {
+    font-style: italic;
+    color: grey;
+    font-family: Helvetica, sans-serif;
+}
+
+.submit-button {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 231px;
+    min-width: 231px;
+    height: 53px;
+    margin-top: 24px;
+    margin-right: 12px;
+    font: 500 30px "Barlow Condensed", sans-serif;
+    color: white;
+    cursor: pointer;
+    background: #25424c;
+    border: 1px solid #25424c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px black;
+}
