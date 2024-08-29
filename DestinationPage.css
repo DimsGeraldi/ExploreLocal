@@ -129,14 +129,16 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    gap: 78px;
+    gap: 50px;
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+    margin-left: 190px;
+
 }
 
 .destination-card-section1:first-child {
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .section-x {
@@ -313,7 +315,7 @@ header {
     padding-right: 29px;
 }
 
-.trip-type {
+.trip-type-a {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -322,6 +324,18 @@ header {
     width: 62px;
     height: 24px;
     background: #cbe3df;
+    border-radius: 5px;
+}
+
+.trip-type-b {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 24px;
+    background: #EAD2AC;
     border-radius: 5px;
 }
 
