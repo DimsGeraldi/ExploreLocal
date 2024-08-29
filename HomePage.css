@@ -402,7 +402,6 @@ a:visited {
     height: 390px;
     border: none;
     object-fit: cover;
-    transform: rotate(270deg);
     margin: 0;
     padding: 0;
 }
@@ -414,7 +413,6 @@ a:visited {
     height: 390px;
     border: none;
     object-fit: cover;
-    transform: rotate(90deg);
     margin: 0;
     padding: 0;
 }
