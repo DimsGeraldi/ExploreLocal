@@ -1,2 +1,9 @@
 import "../components/header-component.js";
 import "../components/footer-component.js";
+import "../components/destination1-card-component.js";
+import "../components/destination2-card-component.js";
+import "../components/destination3-card-component.js";
+import "../components/destination4-card-component.js";
+import "../components/destination5-card-component.js";
+import "../components/destination-card-layout-component.js";
+import "../components/submenu-destination.js";
